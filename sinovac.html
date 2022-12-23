@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+<style>
+body{
+  background-color:  #233c5c;;
+}
+*{
+   font-family: 'Montserrat', sans-serif;
+   margin:0; padding:0;
+   box-sizing: border-box;
+   outline: none; border:none;
+   text-decoration: none;
+   text-transform: capitalize;
+   transition: all .2s linear;
+}
+#mySidenav a {
+  position: absolute;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+#mySidenav a:hover {
+  left: 0;
+} 
+#Back {
+  top: 20px;
+  background-color: #e00202;
+}
+.bg {
+  display: flex;
+  background-color: #174082;
+  padding: 10px;
+  min-width: fit-content;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 50px;
+}
+.instruction {
+   background-color: white;
+   padding: 50px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   width: 500px ;
+   border-radius: 30px;
+}
+.container{
+  padding:25px 10%;
+  text-align: center;
+}
+.container .image-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap:20px;
+  padding-top: 30px;
+}
+.container .image-container .image{
+  padding:15px;
+  /*background-color: #fff;*/
+  /*box-shadow: 0 5px 10px rgba(0,0,0,.1);*/
+  border:1px solid #000;
+  width: 250px;
+  height: 300px;
+  border-radius: 30px;
+  animation: fadeIn .2s linear;
+  background: #ffffff;
+  box-shadow: inset 9px -9px 18px #d9d9d9,
+            inset -9px 9px 18px #ffffff;
+}
+@keyframes fadeIn {
+  0%{
+    transform: scale(.5) translateY(-10px);
+    opacity: 0;
+  }
+}
+.container .image-container .image img{
+  height: 150px;
+   width: 190px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border-radius: 30px;
+}
+.container .image-container .image h4{
+  font-size: 20px;
+}
+@media (max-width:768px){
+  .container #search-box{
+    width: 100%;
+  }
+}
+@media (max-width:450px){
+  .container{
+    padding:25px 20px;
+  }
+  .container .image-container .image{
+    width: 100%;
+  }
+}
+a{
+  color: black;
+}
+</style>
+ 
+</head>
+<body>
+<div id="mySidenav" class="sidenav">
+  <div class="bg">
+   <img src="vs7.png" alt="">
+    <div class="instruction"> 
+     <h1>Sinovac</h1>
+     <br>
+      <img src="sinovac.jpg" alt="" width="400px">
+    </div>
+     <a href="student.html" id="Back">BACK</a>
+ </div>  
+</div>
+
+<div class="container">
+  <div class="image-container">
+    
+<div class="image" data-title="aremado">
+ <img src="Aremado.jpg" alt="">
+  <h4>CASTER TROI AREMADO</h4>
+   <div class="media-icons">
+    <a href="aremado.html">
+     <i class='bx bxs-user-detail icon bx-md bx-burst-hover' style = "position:relative; left: 3%; top: 25px;" ></i>
+    </a>
+   </div>
+</div>
+
+<div class="image" data-title="austria">
+ <img src="Austria.jpg" alt="">
+  <h4>FRANCIS ADRIANN AUSTRIA</h4>
+   <div class="media-icons">
+    <a href="austria.html">
+     <i class='bx bxs-user-detail icon bx-md bx-burst-hover' style = "position:relative; left: 3%; top: 15px;" ></i>
+    </a>
+   </div>
+</div>
+
+<div class="image" data-title="baluran">
+ <img src="Baluran.jpg" alt=""> 
+  <h4>ANA MARIE BALURAN</h4>
+   <div class="media-icons">
+    <a href="baluran.html">
+     <i class='bx bxs-user-detail icon bx-md bx-burst-hover' style = "position:relative; left: 3%;" ></i>
+    </a>
+   </div>
+</div>
+
+<div class="image" data-title="cervantes">
+ <img src="Cervantes.jpg" alt="">
+  <h4>PAULLINE CERVANTES</h4>
+   <div class="media-icons">
+    <a href="cervantes.html">
+     <i class='bx bxs-user-detail icon bx-md bx-burst-hover' style = "position:relative; left: 3%; top: 15px;" ></i>
+    </a>
+   </div>
+</div>
+
+<div class="image" data-title="conde">
+ <img src="Conde.jpg" alt="">
+  <h4>HWA ZHE LEI CONDE</h4>
+   <div class="media-icons">
+    <a href="conde.html">
+     <i class='bx bxs-user-detail icon bx-md bx-burst-hover' style = "position:relative; left: 3%; top: 15px;" ></i>
+    </a>
+   </div>
+</div>
+
+<div class="image" data-title="dablio">
+  <img src="dablio.jpg" alt="">
+    <h4>GLEENDON DABLIO</h4>
+     <div class="media-icons">
+      <a href="dablio.html">
+        <i class='bx bxs-user-detail icon bx-md bx-burst-hover' style = "position:relative; left: 3%; top: 15px;" ></i>
+      </a>
+     </div>
+</div>
+
+<div class="image" data-title="damasco">
+ <img src="Damasco.jpg" alt="">
+  <h4>RICA JOY DAMASCO</h4>
+   <div class="media-icons">
+    <a href="damasco.html">
+     <i class='bx bxs-user-detail icon bx-md bx-burst-hover' style = "position:relative; left: 3%; top: 15px;" ></i>
+    </a>
+  </div>
+</div>
+
+<div class="image" data-title="española">
+ <img src="Española.jpg" alt="">
+  <h4>RASEL ESPAÑOLA</h4>
+   <div class="media-icons">
+    <a href="española.html">
+     <i class='bx bxs-user-detail icon bx-md bx-burst-hover' style = "position:relative; left: 3%; top: 15px;" ></i>
+    </a>
+   </div>
+</div>
+
+<div class="image" data-title="fajardo">
+ <img src="Fajardo.jpg" alt="">
+  <h4>ALADIN JR FAJARDO</h4>
+   <div class="media-icons">
+    <a href="fajardo.html">
+     <i class='bx bxs-user-detail icon bx-md bx-burst-hover' style = "position:relative; left: 3%; top: 15px;" ></i>
+    </a>
+   </div>
+</div>
+
+<div class="image" data-title="gerola">
+ <img src="Gerola.jpg" alt="">
+  <h4>PAUL CHRISTIAN GEROLA</h4>
+   <div class="media-icons">
+    <a href="gerola.html">
+     <i class='bx bxs-user-detail icon bx-md bx-burst-hover' style = "position:relative; left: 3%; top: 15px;" ></i>
+    </a>
+   </div>
+</div>
+
+<div class="image" data-title="gonzales">
+ <img src="Gonzales.jpg" alt="">
+  <h4>JOHN PATRICK GONZALES</h4>
+   <div class="media-icons">
+    <a href="gonzales.html">
+     <i class='bx bxs-user-detail icon bx-md bx-burst-hover' style = "position:relative; left: 3%; top: 15px;" ></i>
+    </a>
+   </div>
+</div>
+
+<div class="image" data-title="jingco">
+ <img src="Jingco.jpg" alt="">
+  <h4>RANIELLE JINGCO</h4>
+   <div class="media-icons">
+    <a href="jingco.html">
+     <i class='bx bxs-user-detail icon bx-md bx-burst-hover' style = "position:relative; left: 3%; top: 15px;" ></i>
+    </a>
+   </div>
+</div>
+
+<div class="image" data-title="laurio">
+ <img src="Laurio.jpg" alt="">
+  <h4>MARY GRACE LAURIO</h4>
+   <div class="media-icons">
+    <a href="laurio.html">
+     <i class='bx bxs-user-detail icon bx-md bx-burst-hover' style = "position:relative; left: 3%; top: 15px;" ></i>
+    </a>
+   </div>
+</div>
+
+<div class="image" data-title="menes">
+ <img src="Menes.jpg" alt="">
+  <h4>MARK ANGELO MENES </h4>
+   <div class="media-icons">
+    <a href="menes.html">
+     <i class='bx bxs-user-detail icon bx-md bx-burst-hover' style = "position:relative; left: 3%; top: 15px;" ></i>
+    </a>
+   </div>
+</div>
+
+<div class="image" data-title="panambitan">
+ <img src="Panambitan.jpg" alt="">
+  <h4>ALYZZA MARIE PANAMBITAN</h4>
+   <div class="media-icons">
+    <a href="panambitan.html">
+     <i class='bx bxs-user-detail icon bx-md bx-burst-hover' style = "position:relative; left: 3%; top: 15px;" ></i>
+    </a>
+   </div>
+</div>
+
+<div class="image" data-title="pamiloza">
+ <img src="Pamiloza.jpg" alt="">
+  <h4>FRANCINE LEIGH PAMILOZA</h4>
+   <div class="media-icons">
+    <a href="pamiloza.html">
+     <i class='bx bxs-user-detail icon bx-md bx-burst-hover' style = "position:relative; left: 3%; top: 15px;" ></i>
+    </a>
+   </div>
+</div>
+
+<div class="image" data-title="roldan">
+ <img src="Roldan.jpg" alt="">
+  <h4>ARRON ROLDAN</h4>
+   <div class="media-icons">
+    <a href="roldan.html">
+     <i class='bx bxs-user-detail icon bx-md bx-burst-hover' style = "position:relative; left: 3%; top: 15px;" ></i>
+    </a>
+  </div>
+</div>
+
+<div class="image" data-title="tampos">
+ <img src="Tampos.jpg" alt="">
+  <h4>WILSON TAMPOS</h4>
+   <div class="media-icons">
+    <a href="tampos.html">
+     <i class='bx bxs-user-detail icon bx-md bx-burst-hover' style = "position:relative; left: 3%; top: 15px;" ></i>
+    </a>
+   </div>
+</div>
+
+<div class="image" data-title="teves">
+ <img src="Teves.jpg" alt="">
+  <h4>ROBERT BENEDICT TEVES</h4>
+   <div class="media-icons">
+    <a href="teves.html">
+     <i class='bx bxs-user-detail icon bx-md bx-burst-hover' style = "position:relative; left: 3%; top: 15px;" ></i>
+    </a>
+   </div>
+</div>
+
+  </div>
+</div>
+
+ <script>
+let searchBox = document.querySelector('#search-box');
+let images = document.querySelectorAll('.container .image-container .image');
+
+searchBox.oninput = () =>{
+   images.forEach(hide => hide.style.display = 'none');
+   let value = searchBox.value
+   images.forEach(filter =>{
+      let title = filter.getAttribute('data-title');
+      if(value == title){
+         filter.style.display = 'block';
+      }
+      if(searchBox.value == ''){
+      filter.style.display = 'block';
+      }
+   });
+};
+</script>
+ 
+</body>
+</html>
